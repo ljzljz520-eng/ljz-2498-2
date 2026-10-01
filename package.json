@@ -1,0 +1,25 @@
+{
+  "name": "mp-graphic-preview-console",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "公众号图文全栈预览台：Vue3 双断点预览 + 结构化模块树/版本迁移 + 服务端清理 + 校验导出",
+  "scripts": {
+    "dev:server": "node server/index.js",
+    "dev:web": "vite",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "sanitize-html": "^2.14.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^5.4.11",
+    "vue": "^3.4.38"
+  }
+}
