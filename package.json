@@ -1,0 +1,22 @@
+{
+  "name": "mpa-preview-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "公众号图文全栈预览台：结构化模块树、服务端清理、平台能力差异提示、受控 HTML / 预览图导出",
+  "scripts": {
+    "dev:server": "node server/src/server.js",
+    "build": "vite build",
+    "start": "node server/src/server.js",
+    "test": "node --test server/test/"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "node-html-parser": "^6.1.13",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.9"
+  }
+}
